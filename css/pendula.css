@@ -21,7 +21,7 @@ h2 {
 
 .block {
     background: rgba(116, 116, 116, 0.15);
-    height: 40px;
+    height: 35px;
     width: 150px;
     display: flex;
     align-items: center;
@@ -58,4 +58,13 @@ a#fade:hover {
 
 .dark-bg {
     color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+    html {
+        justify-content: center;
+    }
+    .block {
+        margin-top: 10px;
+    }
 }
