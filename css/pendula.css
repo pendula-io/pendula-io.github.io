@@ -1,0 +1,61 @@
+/*** Pendula CSS ***/
+
+.header-logo {
+    margin: 0 auto;
+    max-height: 130px;
+}
+
+html * {
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+body {
+    background: #192B3A;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 26px;
+}
+
+.block {
+    background: rgba(116, 116, 116, 0.15);
+    height: 40px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+    margin-top: 8px;
+}
+
+.container {
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+a#fade {
+  text-decoration: none;
+  border-bottom: 1px solid rgba(192, 192, 192, 0);
+  /* ^- the important bit. RGB 192,192,192 is the same as #C0C0C0*/
+  -webkit-transition: border 500ms ease;
+  -moz-transition: border 500ms ease;
+  -ms-transition: border 500ms ease;
+  -o-transition: border 500ms ease;
+  transition: border 500ms ease; 
+}
+
+a#fade:hover {
+  border-bottom: 1px solid #FFBCBC;
+}
+
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+
+.dark-bg {
+    color: #fff;
+}
