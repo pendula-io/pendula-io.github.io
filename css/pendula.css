@@ -19,6 +19,11 @@ h2 {
     font-size: 26px;
 }
 
+h3 {
+    font-weight: 400;
+    font-size: 22px;
+}
+
 .block {
     background: rgba(116, 116, 116, 0.15);
     height: 35px;
@@ -30,9 +35,28 @@ h2 {
     margin-top: 8px;
 }
 
-.container {
-    padding-left: 45px;
-    padding-right: 45px;
+.icon {
+    float: left;
+    max-width: 75px;
+    margin-top: 10px;
+    margin-left: -10px;
+    padding-right: 10px;
+}
+
+.col-icon {
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.icon-text {
+    font-family: 'Lato', sans-serif;
+    padding-left: 15px;
+}
+
+#icon-para {
+    font-size: .9em;
 }
 
 a#fade {
@@ -50,14 +74,9 @@ a#fade:hover {
   border-bottom: 1px solid #FFBCBC;
 }
 
-
 .vertical-align {
     display: flex;
     align-items: center;
-}
-
-.dark-bg {
-    color: #fff;
 }
 
 @media screen and (max-width: 768px) {
@@ -66,5 +85,62 @@ a#fade:hover {
     }
     .block {
         margin-top: 10px;
+    }
+    .row {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .col-centered {
+        align-content: center;
+        width: 100%;
+        display: flex;
+        align-items: baseline;
+        justify-content: space-around;
+        margin-top: 15px;
+        padding-left: 10%;
+        padding-right: 10%;
+        margin-bottom: -15px;
+    }
+    #icon-para {
+        font-size: 1.1em;
+    }
+    .col-icon {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    #introtext {
+        text-align: center;
+    }
+}
+
+@media (max-width: 600px) and (min-width: 0px) {
+    #icon-para {
+        font-size: 1.0em;
+    }
+    .col-icon {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .block {
+        visibility: hidden;
+        margin-bottom: -50px;
+    }
+    #intro {
+        margin-bottom: -20px;
+    }
+    
+}
+
+#intro {
+    background: #192B3A;
+}
+
+#features {
+    background: #081C29;
+}
+
+@media screen and (min-width: 1200px){
+    #icon-para {
+        font-size: 1.1em;
     }
 }
