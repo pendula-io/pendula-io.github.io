@@ -24,6 +24,11 @@ h3 {
     font-size: 22px;
 }
 
+.row {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
 .block {
     background: rgba(116, 116, 116, 0.15);
     height: 35px;
