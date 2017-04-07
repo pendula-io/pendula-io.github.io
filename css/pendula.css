@@ -172,24 +172,6 @@ a#fade:hover {
     }
 }
 
-@media (max-width: 600px) and (min-width: 0px) {
-    #icon-para {
-        font-size: 1.0em;
-    }
-    .col-icon {
-        margin-left: 5%;
-        margin-right: 5%;
-    }
-    .block {
-        visibility: hidden;
-        margin-bottom: -50px;
-    }
-    #intro {
-        margin-bottom: -20px;
-    }
-    
-}
-
 #intro {
     background: #192B3A;
 }
