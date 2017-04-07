@@ -44,6 +44,11 @@ h3 {
   -webkit-animation-duration: 3s;
 }
 
+#footerText {
+    -webkit-animation-duration: 2s;
+    -webkit-animation-delay: .5s;
+}
+
 #block2 { 
   -webkit-animation-duration: 1.5s;
   -webkit-animation-delay: 0.15s;
